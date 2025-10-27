@@ -1,0 +1,34 @@
+{
+  "name": "cashtrackr",
+  "version": "1.0.0",
+  "description": "Proyecto CashTracker React TypeScript y Node.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "dev:api": "nodemon src/index.ts --api",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramonespino/Cashtracker_9B.git"
+  },
+  "author": "Jesus E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramonespino/Cashtracker_9B/issues"
+  },
+  "homepage": "https://github.com/ramonespino/Cashtracker_9B#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "express": "^5.1.0",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/morgan": "^1.9.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
